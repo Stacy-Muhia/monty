@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -32,5 +34,5 @@ typedef struct instruction_s
 } instruction_t;
 
 int main(int argc, char *argv[]);
-
+void pall(stack_t **begin, unsigned int line_number);
 #endif
