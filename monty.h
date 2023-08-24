@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 
 /**
@@ -39,5 +40,7 @@ int main(int argc, char *argv[]);
 void pall(stack_t **begin, unsigned int line_number);
 void push(stack_t **begin, unsigned int line_number);
 void check_num_args(char **args);
+void pint(stack_t **begin, unsigned int line_number);
+void pop(stack_t **begin, unsigned int line_number);
 
 #endif
