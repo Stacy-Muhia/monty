@@ -39,4 +39,6 @@ int main(int argc, char *argv[]);
 void pall(stack_t **begin, unsigned int line_number);
 void push(stack_t **begin, unsigned int line_number);
 void pint(stack_t **begin, unsigned int line_number);
+void pop(stack_t **begin, unsigned int line_number);
+
 #endif
