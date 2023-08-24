@@ -42,5 +42,9 @@ void push(stack_t **begin, unsigned int line_number);
 void check_num_args(char **args);
 void pint(stack_t **begin, unsigned int line_number);
 void pop(stack_t **begin, unsigned int line_number);
+void invalid_args(stack_t **begin, unsigned int line_number);
+void memory_error(stack_t *new_node, stack_t **begin);
+void file_opening(const char *file_path);
+void error_exit(stack_t **begin)
 
 #endif
