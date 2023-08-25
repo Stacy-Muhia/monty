@@ -7,7 +7,7 @@
  *@line_number: the counter
  *
  */
-void pall(stack_t **begin, unsigned int line_number)
+void our_pall(stack_t **begin, unsigned int line_number)
 {
 	stack_t *x = NULL;
 	(void) line_number;

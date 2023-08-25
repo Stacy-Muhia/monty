@@ -37,11 +37,11 @@ typedef struct instruction_s
 } instruction_t;
 
 int main(int argc, char *argv[]);
-void pall(stack_t **begin, unsigned int line_number);
-void push(stack_t **begin, unsigned int line_number);
+void our_pall(stack_t **begin, unsigned int line_number);
+void our_push(stack_t **begin, unsigned int line_number);
 void check_num_args(char **args);
-void pint(stack_t **begin, unsigned int line_number);
-void pop(stack_t **begin, unsigned int line_number);
+void our_pint(stack_t **begin, unsigned int line_number);
+void our_pop(stack_t **begin, unsigned int line_number);
 void free_stack(stack_t *head);
 void (*execute_opcodes(char *str))(stack_t **, unsigned int);
 void invalid_args(stack_t **begin, unsigned int line_number);

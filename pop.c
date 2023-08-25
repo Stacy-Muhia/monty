@@ -5,7 +5,7 @@
  * @begin: The beginning of the stack
  * @line_number: the counter
  */
-void pop(stack_t **begin, unsigned int line_number)
+void our_pop(stack_t **begin, unsigned int line_number)
 {
 	stack_t *temp;
 

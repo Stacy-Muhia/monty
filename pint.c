@@ -7,7 +7,7 @@
  * @line_number: the counter
  *
  */
-void pint(stack_t **begin, unsigned int line_number)
+void our_pint(stack_t **begin, unsigned int line_number)
 {
 	if (*begin == NULL)
 		/*missing line of code of handling error*/
