@@ -42,5 +42,7 @@ void push(stack_t **begin, unsigned int line_number);
 void check_num_args(char **args);
 void pint(stack_t **begin, unsigned int line_number);
 void pop(stack_t **begin, unsigned int line_number);
+void free_stack(stack_t *head);
+void (*execute_opcodes(char *str))(stack_t **, unsigned int);
 
 #endif
